@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap");
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  display: inline-block;
+}
+b {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+#title {
+  text-align: center;
+  overflow: hidden;
+}
+#navbar-brand {
+  padding: 5% 0;
+}
+.nav-link {
+  text-align: center;
+}
+
+#navbar-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+@media (max-width: 950px) {
+  #navbar-nav {
+    background-color: aqua;
+  }
+  b {
+    color: white;
+  }
+}
+
+b::after {
+  content: "";
+  display: block;
+  background-color: aqua;
+  height: 4px;
+  transform: scaleX(0);
+  transition: transform 500ms;
+}
+b:hover:after {
+  transform: scaleX(1);
+}
+
+b:hover {
+  color: aqua;
+  text-decoration: underline;
+  transition: color 1000ms;
+}
+#title1 {
+  background: linear-gradient(0deg, #0072c9, #0089b7);
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+}
+.p {
+  padding: 2% 3%;
+  color: rgb(245, 245, 245);
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  opacity: 0.6;
+  letter-spacing: 5px;
+}
+h1 {
+  letter-spacing: -2px;
+}
+.download-btn {
+  padding: 3%;
+  margin: 2% 1%;
+}
+
+#title {
+  position: relative;
+  width: 100%;
+}
+.container-fluid {
+  position: static;
+  padding: 10px;
+}
+
+h1 {
+  padding: 2% 3%;
+  color: rgb(245, 245, 245);
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+#download-btn {
+  width: 200px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+#row {
+  justify-content: center;
+}
+.top-img-container {
+  position: relative;
+}
+
+.title-img {
+  position: absolute;
+  width: 200px;
+  top: -100%;
+  transform: rotate(20deg);
+}
+
+@media (max-width: 980px) {
+  #title1 {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.col-lg-6 {
+  padding: 0 0 3% 0%;
+}
+#content {
+  padding: 3% 0;
+  text-align: center;
+}
+.h1C {
+  color: rgb(224, 121, 87);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.container p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.ul {
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+#service-list-selection {
+  background: url("https://tindog.co/wp-content/themes/mts_pets/images/services-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 2% 8%;
+}
+.service-list h5 {
+  text-align: left;
+  font-weight: bold;
+  color: #ff7e7e;
+}
+.service-list p {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.service-list i {
+  border-radius: 50%;
+  padding: 3% 0;
+  transition: transform 2s;
+}
+.service-list i:hover {
+  transform: scale(2);
+}
+
+@media (max-width: 850px) {
+  #service-list-selection {
+    background: transparent;
+  }
+}
+#our-latest-blog {
+  padding: 5% 8%;
+}
+#our-latest-blog .title {
+  text-align: center;
+}
+#our-latest-blog .tag {
+  letter-spacing: 10px;
+  font-size: 1.5rem;
+}
+.h1t {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-family: "Gluten", cursive;
+  color: #ff7e7e;
+}
+#our-latest-blog .p1 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+#our-latest-blog .cards {
+  padding: 5% 2%;
+  border-radius: 12px;
+}
+#our-latest-blog .card-title {
+  color: #ff7e7e;
+  text-align: center;
+  font-size: 1.2rem;
+}
+#our-latest-blog .card-title:hover {
+  text-decoration: underline;
+}
+#our-latest-blog .card-subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 3% 3%;
+}
+#our-latest-blog .card-text {
+  font-size: 1.1rem;
+  padding: 3% 3%;
+}
+#our-latest-blog .btn {
+  font-weight: bold;
+}
+#press {
+  text-align: center;
+  padding: 0 3%;
+}
+#press .press-logo {
+  padding: 0 2%;
+}
+#dog-profile .row {
+  padding: 0;
+  margin: 0;
+}
+#dog-profile .pic {
+  padding: 0;
+  margin: 0;
+}
+
+#dog-profile .dog-pic {
+  width: 100%;
+  height: 250px;
+  transition: transform 1000ms;
+}
+#dog-profile .dog-pic:hover {
+  transform: scale(1.1);
+}
+#contact {
+  background: #ff7e7e;
+  color: white;
+  text-align: center;
+  padding: 5% 10%;
+  margin: 1% 0;
+}
+#contact .h2 {
+  font-size: 3rem;
+}
+#contact .st {
+  font-size: 2rem;
+  line-height: 2;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#contact .text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+  line-height: 2;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#contact .form {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+#contact .download-btn {
+  font-weight: bold;
+}
+#list .card-title {
+  font-weight: bold;
+}
+#list a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 4% 3%;
+  font-weight: bold;
+  cursor: pointer;
+}
+#list a:hover {
+  color: aqua;
+  transform: scaleX(1);
+  transition: color 700ms;
+  text-decoration: underline;
+}
+#list .search-box {
+  margin: 4% 0;
+}
+#list {
+  margin: 5% 1%;
+}
+#footer .footer {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 2% 10%;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
